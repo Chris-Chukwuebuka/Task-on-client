@@ -9,7 +9,7 @@ import face from "../assets/finegirl.png";
 const HeaderTwo = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-white border-bottom border-2 head">
+      <Navbar expand="lg" className="d-flex bg-white border-bottom border-2 head">
         <Container>
           <Navbar.Brand>
             <Link to="/">

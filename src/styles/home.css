@@ -2,6 +2,9 @@
 font-weight: 500;
 font-size: 50px;
 }
+.home-manage{
+    margin-top: 20px;
+}
 .home-manage .duty{
     font-weight: 500;
     font-size: 50px;
@@ -25,6 +28,43 @@ height: 153px;
 }
 
 .home-img{
+    margin-top: 20px;
     width: 418px;
     height: 396px;
+}
+@media (max-width:320px) {
+    .goat{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .home-manage h3{
+        font-size: 30px;
+    }
+     .home-manage{
+        width: 100%;
+     }
+      .home-manage p{
+        text-align: left;
+        width: 100%;
+        height: 200px;
+        padding-left: 10px;
+      }
+      .home-manage button{
+        width: 180px;
+        margin: 30px 10px;
+        height: 50px;
+      }
+      .home-manage .duty {
+        font-size: 40px;
+      }
+      .home-img{
+        width: 100%;
+        height: 300px;
+      }
+      .home-img img{
+        width:300px;
+      }
 }

@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
       <RotatingLines
-        strokeColor="grey"
+        strokeColor="green"
         strokeWidth="5"
         animationDuration="0.75"
         width="96"

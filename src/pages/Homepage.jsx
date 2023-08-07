@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../styles/home.css'
-import imggg from '../assets/imgone.png'
+import imggg from '../assets/img1.png'
 import { Link } from 'react-router-dom'
-
+import Image from "../components/Image"
 const Homepage = () => {
   return (
     <div>
       <Header />
-      <div>
+      <div className='goat'>
         <div>
           <div className="d-lg-flex justify-content-around align-items-center">
             <div className="home-manage">
@@ -27,7 +27,7 @@ const Homepage = () => {
               </Link>
             </div>
             <div className="home-img">
-              <img src={imggg} alt="" />
+              <Image/>
             </div>
           </div>
         </div>
