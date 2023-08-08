@@ -100,7 +100,7 @@ const Update = () => {
               <fieldset>
                 <input
                   type="text"
-                  className="title-input ps-2"
+                  className="title-input ps-2 "
                   value={tags}
                   onChange={(e) => setTags(e.target.value)}
                 />

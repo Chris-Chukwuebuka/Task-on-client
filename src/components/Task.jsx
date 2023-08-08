@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Task = ({title, description, tags, _id}) => {
   const handleDelete = async (id) =>{
   try {
-    const url = `https://taskdutyapi-cg4x.onrender.com/api/tasks/${_id}`;
+    const url = `https://taskdutyapi-cg4x.onrender.com/api/tasks/${id}`;
     const res = await fetch(url, {
       method: 'DELETE'
     });
@@ -34,10 +34,10 @@ const Task = ({title, description, tags, _id}) => {
             </button>
           </div>
         </div>
-        <div className='liner d-flex justify-content-center align-items-center'>
+        <div className='liner d-flex justify-content-center align-items-center '>
           <hr className="line" />
         </div>
-        <h3 className="fw-bold text-capitalize p-2">{title}</h3>
+        <h3 className="fw-bold text-capitalize p-2 ps-2">{title}</h3>
         <p className='pb-5'>{description}</p>
       </div>
       

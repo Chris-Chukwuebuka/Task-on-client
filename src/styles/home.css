@@ -3,7 +3,8 @@ font-weight: 500;
 font-size: 50px;
 }
 .home-manage{
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
 .home-manage .duty{
     font-weight: 500;
@@ -13,7 +14,7 @@ font-size: 50px;
 .home-manage p{
 font-weight: 400;
 font-size: 20px;
-width: 535px;
+width: 370px;
 height: 153px;
 }
 .home-manage button{
@@ -25,6 +26,7 @@ height: 153px;
     font-weight: 500;
     font-size: 24px;
     border: none;
+    margin-top: 20px;
 }
 
 .home-img{
@@ -39,6 +41,7 @@ height: 153px;
         gap: 30px;
         width: 100%;
         padding: 30px 10px;
+        overflow: hidden;
     }
     .home-manage h3{
         font-size: 30px;

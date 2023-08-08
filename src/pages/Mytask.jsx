@@ -14,7 +14,7 @@ const Mytask = () => {
     <div>
       <TaskHeader />
       {isLoading && <Loading />}
-      <div className=" container d-flex justify-content-between align-items-center mt-5">
+      <div className=" container d-flex justify-content-between align-items-center mt-5 ps-4 ">
         <div>
           <h2>My Tasks</h2>
         </div>
@@ -32,7 +32,7 @@ const Mytask = () => {
           })}
       </div>
 
-      <div divclassName="d-flex justify-content-center align-items-center mt-5 ">
+      <div className="d-flex justify-content-center align-items-center mt-5 ">
         <Link to="/all" className="text-decoration-none text-center">
           <p className="back">Back to Top</p>
         </Link>
